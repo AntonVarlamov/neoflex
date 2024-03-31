@@ -1,0 +1,11 @@
+.devices {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width: 1000px) {
+    .devices {
+        width: 100%;
+    }
+}

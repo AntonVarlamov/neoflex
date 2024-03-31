@@ -1,0 +1,18 @@
+.devices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #838383;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

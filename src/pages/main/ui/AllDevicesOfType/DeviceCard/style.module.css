@@ -1,0 +1,85 @@
+.device {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 22px 32px 22px;
+    justify-content: end;
+    gap: 55px;
+    width: 340px;
+}
+
+.image {
+    width: 219px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffa542;
+}
+
+.oldPrice {
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-decoration: line-through;
+    color: #ffce7f;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    white-space: nowrap;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1c1c27;
+}
+
+.rate {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #838383;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.prices {
+    margin-left: auto;
+    position: relative;
+}
+
+.info {
+    display: flex;
+}
+
+.allInfo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.button {
+    margin-left: auto;
+    background-color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.button:hover{
+    animation: button-hover .5s forwards;
+}
+
+@keyframes button-hover {
+    to {
+        scale: 1.2;
+    }
+}
